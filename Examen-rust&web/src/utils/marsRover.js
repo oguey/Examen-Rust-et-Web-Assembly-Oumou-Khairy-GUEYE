@@ -66,5 +66,4 @@ function getFinalRoverPositions(input) {
     return results.join('\n');
 }
 
-// Exporte les fonctions pour pouvoir les utiliser dans d'autres fichiers
 module.exports = { parsePlateauAndRovers, executeRoverInstructions, getFinalRoverPositions };
